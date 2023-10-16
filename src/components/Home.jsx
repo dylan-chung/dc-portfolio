@@ -35,10 +35,7 @@ const Home = () => {
           </h3>
           
           <p className=" text-xl py-5 max-w-5xl font-sans font-light  text-gray-400">
-             A poassionate Multi-skilled Enginner in Toronto, have 2 years experience in PLC and HVAC industry development.
-             Complete various implementation and integration projects of systems, software and hardware.
-              Have strong project management skills and be able to complete projects independently.
-               Willing to learn new technologies and skills.
+          Multi-skilled Electronics Engineer with 3 years of experience in circuit design, embedded system development, and PLC/HVAC industry projects. Proficient in C/C++ programming, assembly language, and microcontroller debugging. Skilled in developing embedded firmware and designing digital electronic systems. Additionally, experienced in full-stack development. Possesses strong project management skills, enabling independent project completion, and maintains an unwavering dedication to continuous learning and mastering new technologies and skills.
           </p>
           <div class="flex flex-row justify-evenly">
           <a href="https://github.com/dylan-chung" target="_blank" rel="noopener noreferrer"><AiFillGithub class=" fill-gray-500  duration-500 hover:fill-gray-700" size={40} /></a>

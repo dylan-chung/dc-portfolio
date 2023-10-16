@@ -39,21 +39,19 @@ const About = () => {
             <p className=" text-xl py-2 max-w-lg font-sans font-light text-gray-400 text-justify">
  
 
-               Hello there, my name is Dylan, I am an electronic engineer with 2+ years experience in HVAC industrial development. 
-               </p>
+            Hello, I'm Dylan and I have over 2 years of experience in HVAC industrial development at an OEM/ODM company.               </p>
                <p className="text-xl py-2 max-w-lg font-sans font-light text-gray-400 text-justify">
-               In my previous job as an electronic engineer, I work with various embedded programming languages and full-stack development, 
-               I successfully establish interactive APP on Apple Store & Google Play using React, JavaScript, and AWS, etc. 
-               These full-stack projects granted me to achieve hands on website and app development, including front-end and back-end knowledge, testing paradigm and UI/UX approach. 
+               In my previous role as an electronic engineer, I worked extensively with various embedded programming languages and full-stack development. I led the development of various HVAC models, integrating C and assembly languages. I was also responsible for PCB layout designs in my position.
                </p>
                <p className=" text-xl py-2 max-w-lg font-sans font-light text-gray-400 text-justify">
-               Other than that, I also led in the development of different HVAC modals integrated with C & assembly languages, as well as laying out PCB designs in my position. 
-              I am passionate and driven in technologies and keen on applying my knowledge and professional experience in front end development.
+               Furthermore, I developed a full-stack app for an IoT device using React, JavaScript, and AWS, among other technologies. This encompassed both front-end and back-end development, including a strong understanding of testing paradigms and a user-centric UI/UX approach.
                </p>
+               <p className=" text-xl py-2 max-w-lg font-sans font-light text-gray-400 text-justify">
+               My passion for technology and my drive to apply my knowledge and professional experience are evident in my commitment to front-end development.               </p>
                 
             
             
-            <a href="./resume.pdf" download='TIK_SANG_CHUNG-CV'
+            <a href="https://tscresume.s3.us-east-2.amazonaws.com/TIK+SANG+CHUNG+resume.pdf" download='TIK_SANG_CHUNG-RESUME'
               rel="noreferrer" target="_blank" class="inline-flex mt-5 justify-center duration-500 items-center py-3 px-5 text-base font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-600 focus:ring-4 focus:ring-white dark:focus:ring-blue-900">
             Resume 
             <HiOutlineDocumentText class="ml-2"/>

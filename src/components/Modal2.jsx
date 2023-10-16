@@ -37,7 +37,7 @@ return(
       <p class="indent-8 text-3xl py-3 
       text-white
       ">
-Fullstack APP for HVAC
+HVAC DashBoard
 </p>
 <div className="h-[800px] w-5/6 bg-slate-800
 border-1 border-gray-500/100 rounded-lg overflow-y-scroll ">
@@ -78,33 +78,29 @@ border-1 border-gray-500/100 rounded-lg overflow-y-scroll ">
         </div>
 
       <p class="indent-8 px-8 mt-10 text-gray-400">
-  A Full stack App in multi platform for control HVAC, using React native. 
-  Implement Third-party API allow HVAC deivces make connection through WIFI.
-
-  Created application inside docker container for mange data from broker and storing into mongodb.
+      Avan-stats is a full-stack, multi-platform HVAC control application built with React Native. It establishes MQTT connections via Wi-Fi and operates within a Docker container to efficiently manage data from the broker, which is then stored in MongoDB.
   </p>
 
 
   <p class="indent-8 px-8 mt-10 text-gray-400 ">
-Created in two platform, for ios and android.
-Avan-stats can be keep track and control few models of HVAC. such as tempertaure, setpoint and schedual.
-Also connect the device with wifi.
+  Available on both iOS and Android, Avan-stats enables users to monitor and control a variety of HVAC models, allowing adjustments to parameters like temperature, setpoints, and schedules, all while facilitating device connectivity via Wi-Fi.
 </p>
 
 
-<p class="indent-8 px-8 mt-10 text-gray-400">
-AWS: EC2, Congito, Lambda
-</p>
+
 
 <p class="indent-8 px-8 mt-10 text-gray-400">
-Front-end: React native
+Front-end: React Native, Sketch
 </p>
 <p class="indent-8 px-8 mt-3 text-gray-400 ">
 
 <ol class="list-disc">
   <li>Devices control menu.</li>
-  <li>Support 3 HVAC models.</li>
+  <li>Support for 3 HVAC models</li>
 </ol>
+</p>
+<p class="indent-8 px-8 mt-10 text-gray-400">
+AWS: EC2, Congito, Lambda
 </p>
 <p class="indent-8 px-8 mt-10 text-gray-400">
 Back-end: Docker, MERN
@@ -113,9 +109,9 @@ Back-end: Docker, MERN
   
 <ol class="list-disc">
   
-  <li>Implement docker in ec2</li>
-  <li>Create application manage mqtt data to database.</li>
-  <li>Mqtt broker, application of mqtt data to mongodb, mern stack in Docker.</li>
+  <li>Implementation of Docker on EC2</li>
+  <li>Development of an application for managing MQTT data and its storage in a database</li>
+  <li>Utilization of MQTT broker, an application for processing MQTT data, and a MERN stack within Docker</li>
 </ol>
 </p>
 
@@ -135,7 +131,7 @@ Demo
       <FaAppStoreIos className=" fill-blue-600 duration-500 hover:fill-gray-700" size={40} />
       </a>
       <a href="https://play.google.com/store/apps/details?id=com.avantec.avanstat&hl=en_CA&gl=US" target="_blank" rel="noreferrer">
-      <FaGooglePlay className=" fill-zinc-500 duration-500 hover:fill-gray-700" size={40} />
+      <FaGooglePlay className=" fill-green-500 duration-500 hover:fill-gray-700" size={40} />
       </a></div>
 
 </div>

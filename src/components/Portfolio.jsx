@@ -21,9 +21,9 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
-      title: "Fullstack MQTT Dashboard for HVAC",
-      text: "A fullstack Web Dashboard with React UI and device management with AWS.",
-      tag:  { 1:"#Ract.js",
+      title: "Fullstack Dashboard for HVAC",
+      text: "A full-stack web dashboard with a React-based UI for device management using AWS.",
+      tag:  { 1:"#React.js",
               2:"#AWS",
               3:"#JavaScript"}
       
@@ -32,10 +32,10 @@ const Portfolio = () => {
       id: 2,
       src: reactParallax,
       title: "Fullstack APP for HVAC",
-      text: "A fullstack App with react native and manage device data with docker container on AWS.",
+      text: "A full-stack app developed with React Native that allows users to control devices and manages device data.",
       tag:{1:"#React Native",
-            2: "#Node.js",
-          3:"#MongoDB"}
+            2: "#MERN",
+          3:"#Docker"}
     }
   ];
 
@@ -50,7 +50,7 @@ className="md:h-screen bg-gradient-to-b from-slate-700 via-slate-800 to-slate-80
       Projects
     </p>
     <p className="py-6 text-gray-500">
-      My best experience is to create Full-Stack projects and deploy them to web application using cloud infrastructure.
+    My most significant experience involves creating full-stack projects and deploying them using cloud infrastructure.
     </p>
   </div>
 

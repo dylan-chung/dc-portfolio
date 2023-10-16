@@ -21,7 +21,7 @@ return(
     flex flex-col justify-center items-center">
       <p class="indent-8 text-3xl py-3 
       text-white">
-Fullstack MQTT Dashboard for HVAC
+HVAC DASHBOARD
 </p>
 <div className="h-[800px] w-5/6 bg-slate-800
 border-1 border-gray-500/100 rounded-lg overflow-y-scroll  ">
@@ -47,24 +47,23 @@ border-1 border-gray-500/100 rounded-lg overflow-y-scroll  ">
         </div>
 
       <p class="indent-8 mt-10 px-8 text-gray-400">
-  A Full stack Web Dashboard for HVAC devices, using React and material UI.
-  Recieved mqtt data through by aws iot and lambda. And storing into dynamodb. Using cognito for admin and user identify to access to view the device data.
+      A full-stack web dashboard for HVAC devices is built using React and Material UI. It receives MQTT data through AWS IoT and Lambda, which is then stored in DynamoDB. Cognito is used for admin and user identification to access and view device data.
 </p>
 
 
 <p class="indent-8 px-8 mt-10 text-gray-400">
-Front-end: React, material UI
+Front-end: React.js, Material UI(MUI)
 </p>
 <p class="indent-8 px-8 mt-10 text-gray-400 my-10 ">
-Back-End AWS: EC2, iot, Lambda, gateway, Congito, Dynamodb, Amplify
+Back-end AWS: EC2, IoT, Lambda, Gateway, Cognito, DynamoDB, and Amplify
 </p>
 <p class="indent-8 my-10 px-8 text-gray-400">
 <ol class="list-disc">
   
-  <li>recieve mqtt data by using mqtt boker in ec2 and aws iot</li>
-  <li>restful api for user get/post/put/delete specfic device .</li>
-  <li>application for trasfering data from aws iot into dynamodb.</li>
-  <li>deploy with aws amplify.</li>
+  <li>Receiving MQTT data by using an MQTT broker on an EC2 instance and AWS IoT.</li>
+  <li>Implementing a RESTful API to allow users to perform GET, POST, PUT, and DELETE operations on specific devices.</li>
+  <li>Transfering data from AWS IoT into DynamoDB.</li>
+  <li>Deploying the project using AWS Amplify.</li>
 </ol>
 
 </p>
